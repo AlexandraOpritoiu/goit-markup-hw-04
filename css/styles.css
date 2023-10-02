@@ -444,9 +444,6 @@ width: 16px;
     width:70px;
     height: 70px;
 }
-.first-section {
-    background-image: url('../images/background.png');
-}
 
 .first-section {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('/images/background.png')
@@ -549,7 +546,6 @@ height: 20px;}
 border-radius: 50%;
 width: 44px;
 fill:#fff;
-
 }
 
 .icon-customers {
@@ -597,5 +593,4 @@ fill:#fff;
 .customers:hover{
     border: 1px solid var(--hover-color);
     fill: var(--hover-color);
-
 }
