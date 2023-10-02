@@ -446,7 +446,7 @@ width: 16px;
 }
 
 .first-section {
-    background-image: /*linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),*/ url('/images/background.png')
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('/images/background.png')
 }
 .second-section .feature{
     display: flex;
