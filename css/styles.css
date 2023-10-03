@@ -446,7 +446,7 @@ width: 16px;
 }
 
 .first-section {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('/images/background.png')
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('../images/background.png')
 }
 .second-section .feature{
     display: flex;
@@ -466,6 +466,7 @@ margin-top: 30px;
 .fourth-section .social-icon{
     width:20px;
     height: 20px;
+
 }
 .fourth-section .social-links{
     display: flex;
@@ -475,6 +476,10 @@ margin-top: 30px;
     padding-bottom: 30px;
     padding-left: 40px;
     padding-right: 40px;
+}
+.fourth-section a{
+    display: flex;
+    align-items: center;
 }
 
 .fourth-section li{
@@ -526,6 +531,7 @@ height: 20px;}
 }
 .footer-svg a{
     padding: 12px;
+    display: flex;
     align-items: center;
     fill:#fff;
     background-color: #ffffff1a;
@@ -555,6 +561,8 @@ fill:#fff;
         margin-right: 32px;
         margin-left: 32px;
         margin-bottom: 16px;
+        display: flex;
+        align-items: center;
 }
 
 .customers {
